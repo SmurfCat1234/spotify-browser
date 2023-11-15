@@ -11,7 +11,7 @@ import { TrackFeature } from '../data/track-feature';
   providedIn: 'root'
 })
 export class SpotifyService {
-	expressBaseUrl:string = 'http://localhost:8888';
+	expressBaseUrl:string = 'https://spotify-browser-server-production.up.railway.app/';
 
   constructor(private http:HttpClient) { }
 
